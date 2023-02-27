@@ -1,0 +1,47 @@
+.App {
+  display: flex;
+  font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
+}
+.tabs {
+  flex-basis: 250px;
+  padding: 10px;
+}
+.tab {
+  display: flex;
+  padding: 10px;
+  color: #333;
+  background: #6e6e6e;
+  cursor: pointer;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+.tab span {
+  flex-grow: 1;
+}
+.tab button {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 1;
+  padding: 0;
+}
+.tab.active button {
+  color: #333;
+}
+.tab.active {
+  background: #fff;
+}
+
+.data {
+  background-color: #fff;
+  color: #333;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 100vh;
+  max-height: 100%;
+}
